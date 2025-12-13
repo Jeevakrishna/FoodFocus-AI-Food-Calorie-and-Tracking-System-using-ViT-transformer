@@ -122,12 +122,8 @@ python train.py --data_dir ./data --epochs 50 --batch_size 32
 ```
 
 ## System Architecture & Workflow
-
-<<<<<<< HEAD
-```mermaid
-=======
 ```bash
->>>>>>> 928845217a40a1a045a2cc01120b4accf25dd9f5
+
 flowchart LR
     A[User Uploads Food Image] --> B[Image Preprocessing]
     B --> C[Vision Transformer (ViT)]
@@ -504,5 +500,6 @@ For future work, expanding the diversity and size of training datasets is crucia
 | **Journal** | : | The Journal of Supercomputing ,Volume 77,pages 8172–8193,Article 11227  |
 | **Indexing** | : | SCI / Scopus |
 | **Base paper URL** | : | [https://link.springer.com/article/10.1007/s11227-021-03622-w\#](https://link.springer.com/article/10.1007/s11227-021-03622-w#) |
+
 
 
