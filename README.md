@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Food Focus AI</h1>
+  <h1>Food Focus </h1>
   <h3>AI-Powered Food Calorie Tracking System Using Vision Transformer</h3>
   <p>Accurate Indian food recognition and nutritional analysis powered by deep learning</p>
 </div>
