@@ -1,5 +1,5 @@
 # =============================================================================
-# FoodFocus AI - training script (commented version)
+# FoodFocus AI - training script 
 #
 # WHAT THIS SCRIPT DOES (big picture):
 #   1. Loads a dataset of food images (as URLs) + food names + nutrition info.
@@ -263,7 +263,7 @@ model = FoodClassificationModel(num_labels=len(label2id))
 print("Setting up training arguments...")
 training_args = TrainingArguments(
     output_dir="./results",            # where checkpoints are saved locally
-    num_train_epochs=10,               # go through the training data 10 times
+    num_train_epochs=100,               # go through the training data 100 times
     per_device_train_batch_size=16,    # images per training step
     per_device_eval_batch_size=16,     # images per validation step
     warmup_steps=500,                  # learning rate ramps up slowly for the first 500 steps
